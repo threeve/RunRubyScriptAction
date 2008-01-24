@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMAccepts</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Optional</key>
+		<true/>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.string</string>
+			<string>com.apple.cocoa.path</string>
+			<string>com.apple.applescript.object</string>
+		</array>
+	</dict>
+	<key>AMApplication</key>
+	<string>Automator</string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<true/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+	<string>AMCategoryUtilities</string>
+	<key>AMDefaultParameters</key>
+	<dict>
+		<key>ruby script source</key>
+		<string>require 'osx/cocoa'
+include OSX
+def performAction(input)
+	NSLog "executing ruby script action."
+	NSLog "input: #{input}"
+end
+</string>
+	</dict>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDRelatedActions</key>
+		<array>
+			<string>com.apple.RunShellScript</string>
+			<string>com.toxicsoftware.Automator.RunPythonScript</string>
+		</array>
+		<key>AMDSummary</key>
+		<string>This action executes a Ruby script.</string>
+		<key>AMDOptions</key>
+		<string></string>
+	</dict>
+	<key>AMIconName</key>
+	<string>ruby</string>
+	<key>AMKeywords</key>
+	<array/>
+	<key>AMName</key>
+	<string>Run Ruby Script</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.string</string>
+			<string>com.apple.cocoa.path</string>
+			<string>com.apple.applescript.object</string>
+		</array>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Run Ruby Script version 1.0, Copyright © 2008, Jason Foreman.</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.threeve.Automator.RunRubyScriptAction</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>NSPrincipalClass</key>
+	<string>RunRubyScriptAction</string>
+</dict>
+</plist>

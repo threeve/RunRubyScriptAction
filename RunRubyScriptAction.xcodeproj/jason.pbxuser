@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 658A2E03067AB99300421F51 /* Automator */;
+		activeTarget = 8D5B49AC048680CD000E48DA /* RunRubyScriptAction */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* RunRubyScriptAction */,
+		);
+		breakpoints = (
+			965661C80D39A1F500652ACB /* RunRubyScriptAction.m:56 */,
+		);
+		codeSenseManager = 658A2DD0067AB96600421F51 /* Code sense */;
+		executables = (
+			658A2E03067AB99300421F51 /* Automator */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					107,
+					99,
+					21,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					131,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					203,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 221547626;
+			PBXWorkspaceStateSaveDate = 221547626;
+		};
+		perUserProjectItems = {
+			961DBFAD0D331857008884FC = 961DBFAD0D331857008884FC /* PBXBookmark */;
+			961DBFB00D331894008884FC = 961DBFB00D331894008884FC /* PBXTextBookmark */;
+			961DBFB10D3318A7008884FC = 961DBFB10D3318A7008884FC /* PBXTextBookmark */;
+			961DBFB30D331A41008884FC = 961DBFB30D331A41008884FC /* PBXTextBookmark */;
+			961DBFB40D331A45008884FC = 961DBFB40D331A45008884FC /* PBXTextBookmark */;
+			965661C60D39A1F000652ACB /* PBXBookmark */ = 965661C60D39A1F000652ACB /* PBXBookmark */;
+			965661CC0D39A21300652ACB /* PBXTextBookmark */ = 965661CC0D39A21300652ACB /* PBXTextBookmark */;
+			965661DF0D39A22A00652ACB /* PBXTextBookmark */ = 965661DF0D39A22A00652ACB /* PBXTextBookmark */;
+			965661E60D39A34500652ACB /* PBXBookmark */ = 965661E60D39A34500652ACB /* PBXBookmark */;
+			965661E90D39A35200652ACB /* PBXTextBookmark */ = 965661E90D39A35200652ACB /* PBXTextBookmark */;
+			965661EE0D39A40800652ACB /* PBXBookmark */ = 965661EE0D39A40800652ACB /* PBXBookmark */;
+			965661F10D39A42100652ACB /* PBXTextBookmark */ = 965661F10D39A42100652ACB /* PBXTextBookmark */;
+			965661F40D39A45000652ACB /* PBXTextBookmark */ = 965661F40D39A45000652ACB /* PBXTextBookmark */;
+			965661F70D39A50E00652ACB /* PBXTextBookmark */ = 965661F70D39A50E00652ACB /* PBXTextBookmark */;
+			965661F90D39A53200652ACB /* PBXTextBookmark */ = 965661F90D39A53200652ACB /* PBXTextBookmark */;
+			965661FA0D39A56C00652ACB /* PBXTextBookmark */ = 965661FA0D39A56C00652ACB /* PBXTextBookmark */;
+		};
+		sourceControlManager = 658A2DCF067AB96600421F51 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 689}}";
+			sepNavSelRange = "{738, 0}";
+			sepNavVisRange = "{0, 880}";
+			sepNavWindowFrame = "{{22, 11}, {750, 746}}";
+		};
+	};
+	32DBCF630370AF2F00C91783 /* RunRubyScriptAction_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 689}}";
+			sepNavSelRange = "{156, 0}";
+			sepNavVisRange = "{0, 164}";
+			sepNavWindowFrame = "{{19, 27}, {750, 746}}";
+		};
+	};
+	6518174F067A8D39005BD953 /* RunRubyScriptAction.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 689}}";
+			sepNavSelRange = "{220, 0}";
+			sepNavVisRange = "{0, 341}";
+			sepNavWindowFrame = "{{472, 5}, {750, 746}}";
+		};
+	};
+	65181750067A8D39005BD953 /* RunRubyScriptAction.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1215, 852}}";
+			sepNavSelRange = "{1444, 0}";
+			sepNavVisRange = "{1274, 584}";
+			sepNavWindowFrame = "{{19, 27}, {750, 746}}";
+		};
+	};
+	658A2DCF067AB96600421F51 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	658A2DD0067AB96600421F51 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	658A2E03067AB99300421F51 /* Automator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"-action \"Run Ruby Script.action\"",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 658A2E04067AB99300421F51 /* Automator.app */;
+		libgmallocEnabled = 0;
+		name = Automator;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	658A2E04067AB99300421F51 /* Automator.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = Automator.app;
+		path = /Applications/Automator.app;
+		sourceTree = "<absolute>";
+	};
+	8D5B49AC048680CD000E48DA /* RunRubyScriptAction */ = {
+		activeExec = 0;
+	};
+	8D5B49B7048680CD000E48DA /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 1080}}";
+			sepNavSelRange = "{1210, 0}";
+			sepNavVisRange = "{805, 1569}";
+			sepNavWindowFrame = "{{6, 27}, {750, 746}}";
+		};
+	};
+	961DBE9F0D30600F008884FC /* RubyTextView.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 689}}";
+			sepNavSelRange = "{235, 0}";
+			sepNavVisRange = "{0, 1199}";
+			sepNavWindowFrame = "{{42, 6}, {750, 746}}";
+		};
+	};
+	961DBFAD0D331857008884FC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 65181750067A8D39005BD953 /* RunRubyScriptAction.m */;
+	};
+	961DBFB00D331894008884FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65181750067A8D39005BD953 /* RunRubyScriptAction.m */;
+		name = "RubyScriptAction.m: 58";
+		rLen = 0;
+		rLoc = 1816;
+		rType = 0;
+		vrLen = 1580;
+		vrLoc = 50;
+	};
+	961DBFB10D3318A7008884FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65181750067A8D39005BD953 /* RunRubyScriptAction.m */;
+		name = "RubyScriptAction.m: 61";
+		rLen = 0;
+		rLoc = 1816;
+		rType = 0;
+		vrLen = 1464;
+		vrLoc = 184;
+	};
+	961DBFB30D331A41008884FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "warning: passing argument 1 of 'CFURLCopyFileSystemPath' from incompatible pointer type";
+		fRef = 65181750067A8D39005BD953 /* RunRubyScriptAction.m */;
+		rLen = 1;
+		rLoc = 60;
+		rType = 1;
+	};
+	961DBFB40D331A45008884FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65181750067A8D39005BD953 /* RunRubyScriptAction.m */;
+		name = "RubyScriptAction.m: 61";
+		rLen = 0;
+		rLoc = 1683;
+		rType = 0;
+		vrLen = 1533;
+		vrLoc = 184;
+	};
+	965661C60D39A1F000652ACB /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 65181750067A8D39005BD953 /* RunRubyScriptAction.m */;
+	};
+	965661C80D39A1F500652ACB /* RunRubyScriptAction.m:56 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 65181750067A8D39005BD953 /* RunRubyScriptAction.m */;
+		functionName = "+bundleIdentifierForApplicationWithName:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 56;
+		location = "Run Ruby Script";
+		modificationTime = 221881668.817747;
+		state = 1;
+	};
+	965661CC0D39A21300652ACB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65181750067A8D39005BD953 /* RunRubyScriptAction.m */;
+		name = "RunRubyScriptAction.m: 6";
+		rLen = 0;
+		rLoc = 124;
+		rType = 0;
+		vrLen = 1616;
+		vrLoc = 248;
+	};
+	965661DF0D39A22A00652ACB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65181750067A8D39005BD953 /* RunRubyScriptAction.m */;
+		name = "RunRubyScriptAction.m: 6";
+		rLen = 0;
+		rLoc = 124;
+		rType = 0;
+		vrLen = 1616;
+		vrLoc = 248;
+	};
+	965661E60D39A34500652ACB /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 96FABF690D15F037002DFDA2 /* RunRubyScriptAction.rb */;
+	};
+	965661E90D39A35200652ACB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96FABF690D15F037002DFDA2 /* RunRubyScriptAction.rb */;
+		name = "RunRubyScriptAction.rb: 8";
+		rLen = 0;
+		rLoc = 154;
+		rType = 0;
+		vrLen = 1590;
+		vrLoc = 322;
+	};
+	965661EE0D39A40800652ACB /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 96FABF690D15F037002DFDA2 /* RunRubyScriptAction.rb */;
+	};
+	965661F10D39A42100652ACB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96FABF690D15F037002DFDA2 /* RunRubyScriptAction.rb */;
+		name = "RunRubyScriptAction.rb: 51";
+		rLen = 0;
+		rLoc = 1300;
+		rType = 0;
+		vrLen = 1737;
+		vrLoc = 293;
+	};
+	965661F40D39A45000652ACB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96FABF690D15F037002DFDA2 /* RunRubyScriptAction.rb */;
+		name = "RunRubyScriptAction.rb: 53";
+		rLen = 0;
+		rLoc = 1345;
+		rType = 0;
+		vrLen = 1653;
+		vrLoc = 293;
+	};
+	965661F70D39A50E00652ACB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96FABF690D15F037002DFDA2 /* RunRubyScriptAction.rb */;
+		name = "RunRubyScriptAction.rb: 59";
+		rLen = 0;
+		rLoc = 1463;
+		rType = 0;
+		vrLen = 1728;
+		vrLoc = 293;
+	};
+	965661F90D39A53200652ACB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96FABF690D15F037002DFDA2 /* RunRubyScriptAction.rb */;
+		name = "RunRubyScriptAction.rb: 59";
+		rLen = 0;
+		rLoc = 1463;
+		rType = 0;
+		vrLen = 1728;
+		vrLoc = 293;
+	};
+	965661FA0D39A56C00652ACB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 96FABF690D15F037002DFDA2 /* RunRubyScriptAction.rb */;
+		name = "RunRubyScriptAction.rb: 59";
+		rLen = 0;
+		rLoc = 1463;
+		rType = 0;
+		vrLen = 1728;
+		vrLoc = 293;
+	};
+	96FABF690D15F037002DFDA2 /* RunRubyScriptAction.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 984}}";
+			sepNavSelRange = "{1354, 0}";
+			sepNavVisRange = "{0, 1535}";
+			sepNavWindowFrame = "{{158, 32}, {750, 746}}";
+		};
+	};
+}
