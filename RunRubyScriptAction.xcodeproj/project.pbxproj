@@ -29,7 +29,7 @@
 		650E79E1067AB5AE00B4A4EC /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = /System/Library/Frameworks/Automator.framework; sourceTree = "<absolute>"; };
 		6518174F067A8D39005BD953 /* RunRubyScriptAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunRubyScriptAction.h; sourceTree = "<group>"; };
 		65181750067A8D39005BD953 /* RunRubyScriptAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunRubyScriptAction.m; sourceTree = "<group>"; };
-		8D5B49B6048680CD000E48DA /* Run Ruby Script.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Run Ruby Script.action"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B6048680CD000E48DA /* RubyScriptAction.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubyScriptAction.action; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
 		961DBE9F0D30600F008884FC /* RubyTextView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = RubyTextView.rb; sourceTree = "<group>"; };
 		961DBF0B0D308121008884FC /* Inconsolata.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Inconsolata.otf; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		19C28FB8FE9D52D311CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D5B49B6048680CD000E48DA /* Run Ruby Script.action */,
+				8D5B49B6048680CD000E48DA /* RubyScriptAction.action */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,7 +154,7 @@
 			name = RunRubyScriptAction;
 			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = RubyScriptAction;
-			productReference = 8D5B49B6048680CD000E48DA /* Run Ruby Script.action */;
+			productReference = 8D5B49B6048680CD000E48DA /* RubyScriptAction.action */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -264,7 +264,7 @@
 				GCC_ENABLE_OBJC_GC = supported;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = RubyScriptAction_Prefix.pch;
+				GCC_PREFIX_HEADER = RunRubyScriptAction_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
