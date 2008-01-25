@@ -34,10 +34,11 @@ class RunRubyScriptAction < AMBundleAction
 	end
 	
 	def convertObject(object)
-		source = getObjectSource(object.descriptorForKeyword_(typeForDescriptor("from")))
+		from = object.descriptorForKeyword_(typeForDescriptor("from"))
+		source = @sources[from.description.to_s] ||= getObjectSource(from)
 		want = object.descriptorForKeyword_(typeForDescriptor('want'))
 		elements = source.elementArrayWithCode(want.typeCodeValue())
-		seld = elements.objectWithID_(object.descriptorForKeyword_(typeForDescriptor('seld')).typeCodeValue())
+		seld = elements.objectWithID_(object.descriptorForKeyword_(typeForDescriptor('seld')))
 		return seld
 	end
 	
@@ -52,6 +53,8 @@ class RunRubyScriptAction < AMBundleAction
 				return ret
 			when typeForDescriptor('obj ')
 				return convertObject(input)
+			when typeForDescriptor('utxt')
+				return input.stringValue()
 			else
 				return input
 			end
@@ -80,6 +83,8 @@ class RunRubyScriptAction < AMBundleAction
 
 	def runWithInput_fromAction_error(input, action, error)
 
+		@sources = {}
+		
 		scriptSource = self.parameters['ruby script source']
 
 		input = convertInput(input)
