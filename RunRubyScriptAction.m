@@ -21,29 +21,6 @@ void __attribute__((constructor)) loadRubyScriptAction(void)
 + (void) load;
 {
     RBBundleInit("RunRubyScriptAction.rb", self, nil);
-	
-	// http://www.cocoabuilder.com/archive/message/cocoa/2004/8/5/113725
-	NSString *fontsFolder = [[NSBundle bundleForClass:[RubyScriptActionLoader class]] resourcePath];
-	if (fontsFolder) {
-		NSURL *fontsURL = [NSURL fileURLWithPath:fontsFolder];
-		if (fontsURL) {
-			FSRef fsRef;
-			FSSpec fsSpec;
-			(void)CFURLGetFSRef((CFURLRef)fontsURL, &fsRef);
-			OSStatus status = FSGetCatalogInfo(&fsRef, kFSCatInfoNone, NULL, 
-											   NULL, &fsSpec, NULL);
-			if (noErr == status) {
-				FMGeneration generationCount = FMGetGeneration();
-				status = FMActivateFonts(&fsSpec, NULL, NULL, 
-										 kFMLocalActivationContext);
-				generationCount = FMGetGeneration() - generationCount;
-				if (generationCount) {
-					NSLog(@"app - added %u font file%s", generationCount, 
-						  (generationCount == 1 ? "" : "s"));
-				}
-			}
-		}
-	}
 }
 
 @end

@@ -15,6 +15,8 @@ include OSX
 class RubyTextView < NSTextView
 
 	def awakeFromNib()
+		@font = NSFont.fontWithName_size_("Inconsolata", 12.0) || NSFont.userFixedPitchFontOfSize(10.0)
+		self.setFont(@font)
 		format()
 	end
 	
@@ -28,7 +30,7 @@ class RubyTextView < NSTextView
 		lexer.set_input(StringIO.new(self.string()))
 		while token = lexer.token
 			attrs = {
-				NSFontAttributeName => NSFont.fontWithName_size_("Inconsolata", 12.0),
+				NSFontAttributeName => @font,
 			}
 			case token 
 			when RubyToken::TkCLASS, RubyToken::TkDEF, RubyToken::TkWHILE, RubyToken::TkBEGIN, RubyToken::TkEND,
