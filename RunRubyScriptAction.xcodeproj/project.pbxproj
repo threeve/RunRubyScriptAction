@@ -14,6 +14,7 @@
 		961DBEA00D30600F008884FC /* RubyTextView.rb in Resources */ = {isa = PBXBuildFile; fileRef = 961DBE9F0D30600F008884FC /* RubyTextView.rb */; };
 		961DBF0C0D308121008884FC /* Inconsolata.otf in Resources */ = {isa = PBXBuildFile; fileRef = 961DBF0B0D308121008884FC /* Inconsolata.otf */; };
 		961DBF960D3316A6008884FC /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961DBF950D3316A6008884FC /* ApplicationServices.framework */; };
+		962DB3580D48329400019ADD /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962DB3570D48329400019ADD /* ScriptingBridge.framework */; };
 		965661AD0D38573900652ACB /* ruby.icns in Resources */ = {isa = PBXBuildFile; fileRef = 965661AC0D38573900652ACB /* ruby.icns */; };
 		96FABF400D15EE7B002DFDA2 /* RubyCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FABF3F0D15EE7B002DFDA2 /* RubyCocoa.framework */; };
 		96FABF440D15EEB6002DFDA2 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FABF420D15EEB6002DFDA2 /* main.xib */; };
@@ -34,6 +35,7 @@
 		961DBE9F0D30600F008884FC /* RubyTextView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = RubyTextView.rb; sourceTree = "<group>"; };
 		961DBF0B0D308121008884FC /* Inconsolata.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Inconsolata.otf; sourceTree = "<group>"; };
 		961DBF950D3316A6008884FC /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		962DB3570D48329400019ADD /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
 		965661AC0D38573900652ACB /* ruby.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ruby.icns; sourceTree = "<group>"; };
 		96FABF3F0D15EE7B002DFDA2 /* RubyCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RubyCocoa.framework; path = /System/Library/Frameworks/RubyCocoa.framework; sourceTree = "<absolute>"; };
 		96FABF430D15EEB6002DFDA2 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/main.xib; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 				650E79E2067AB5AE00B4A4EC /* Automator.framework in Frameworks */,
 				96FABF400D15EE7B002DFDA2 /* RubyCocoa.framework in Frameworks */,
 				961DBF960D3316A6008884FC /* ApplicationServices.framework in Frameworks */,
+				962DB3580D48329400019ADD /* ScriptingBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +105,7 @@
 		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				962DB3570D48329400019ADD /* ScriptingBridge.framework */,
 				961DBF950D3316A6008884FC /* ApplicationServices.framework */,
 				96FABF3F0D15EE7B002DFDA2 /* RubyCocoa.framework */,
 				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
