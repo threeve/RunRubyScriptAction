@@ -59,6 +59,24 @@ class RunRubyScriptAction < AMBundleAction
 			return input
 		end
 	end
+	
+	def convertOutput(output)
+		case output
+		when Array, NSArray
+			list = NSAppleEventDescriptor.listDescriptor()
+			output.each_with_index do |o, i|
+				list.insertDescriptor_atIndex_(convertOutput(o), i)
+			end
+			return list
+		when SBObject
+			return output.qualifiedSpecifier()
+		when String, NSString
+			return NSAppleEventDescriptor.descriptorWithString_(output)
+		else
+			NSLog "warning: cannot convert output of type #{output.class}"
+			return NSNull # TODO return nil, output, something else?
+		end
+	end
 
 	def runWithInput_fromAction_error(input, action, error)
 
@@ -74,7 +92,7 @@ class RunRubyScriptAction < AMBundleAction
 			result = nil
 		end
 		
-		return result
+		return convertOutput(result)
 				
 	end
 
