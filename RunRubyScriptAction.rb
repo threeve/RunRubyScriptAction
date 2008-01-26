@@ -11,6 +11,7 @@ require 'osx/cocoa'
 include OSX
 
 require_framework 'ScriptingBridge'
+require_framework 'Automator'
 require 'RubyTextView'
 
 class RunRubyScriptAction < AMBundleAction
