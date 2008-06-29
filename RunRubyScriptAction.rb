@@ -84,22 +84,29 @@ class RunRubyScriptAction < AMBundleAction
 
 	def runWithInput_fromAction_error(input, action, error)
 
-		@sources = {}
-		
-		scriptSource = self.parameters['ruby script source']
+		begin
+			@sources = {}
 
-		input = convertInput(input)
+			scriptSource = self.parameters['ruby script source']
 
-		klass = Class.new
-		klass.class_eval(scriptSource)
-		if klass.method_defined? :performAction then
-			result = klass.new.performAction(input)
-		else
-			result = nil
+			input = convertInput(input)
+
+			klass = Class.new
+			klass.class_eval(scriptSource)
+			if klass.method_defined? :performAction then
+				result = klass.new.performAction(input)
+			else
+				result = nil
+			end
+
+			return convertOutput(result)
+		rescue
+			e = {
+				:OSAScriptErrorNumber => -1,
+				:OSAScriptErrorMessage => 'A Ruby exception occured.',
+			}
+			error.assign(NSDictionary.dictionaryWithDictionary_(e))
 		end
-		
-		return convertOutput(result)
-				
 	end
 
 end
